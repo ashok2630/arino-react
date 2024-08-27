@@ -10,21 +10,21 @@ import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Learning Is Actually Automatic',
     subtitle: 'See Details',
     href: '/portfolio/1',
     src: '/images/portfolio_1.gif',
     category: 'ui_ux_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Theta Brainwaves',
     subtitle: 'See Details',
     href: '/portfolio/2',
     src: '/images/portfolio_2.gif',
     category: 'logo_design',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'A Perfect Presentation!',
     subtitle: 'See Details',
     href: '/portfolio/3',
     src: '/images/portfolio_3.gif',
