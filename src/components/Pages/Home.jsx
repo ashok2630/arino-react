@@ -127,7 +127,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Enhances Language Acquisition"
-                    link='/service/enhances-language-acquisition'
+                    link='/service/1'
                     src="/images/service_1.jpeg"
                     alt="Service"
                   />
@@ -137,7 +137,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Double Their Synaptic Architecture"
-                    link='/service/double-their-synaptic-architecture'
+                    link='/service/2'
                     src="/images/service_2.gif"
                     alt="Service"
                   />
@@ -146,7 +146,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Create A Musical Prodigy"
-                    link='/service/create-a-musical-prodigy'
+                    link='/service/3'
                     src="/images/service_3.jpeg"
                     alt="Service"
                   />
@@ -156,7 +156,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="It Is Easy & Automatic"
-                    link='/service/it-is-easy-&-automatic'
+                    link='/service/4'
                     src="/images/service_4.gif"
                     alt="Service"
                   />

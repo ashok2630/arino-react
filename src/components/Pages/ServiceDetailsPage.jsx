@@ -11,12 +11,47 @@ import SectionHeading from '../SectionHeading'
 import TestimonialSlider from '../Slider/TestimonialSlider'
 import Spacing from '../Spacing'
 
+const services = [
+  {
+    id: 1,
+    src: "/images/service_1.jpeg",
+    details: "Enhances Language Acquisition",
+    details2: "Language is the brain’s largest accomplishment. It pairs meaning to sound. The brain is programmed to learn language first and there is a critical period for both language and pitch. During this time, you can expand the sounds they learn to identify from phonemes to musical. English has 44 phonemes. Musical pitch has 28 basic notes and chords.",
+  },
+  {
+    id: 2,
+    src: "/images/service_2.gif",
+    details: "Double Their Synaptic Architecture",
+    details2:
+      "The developing brain is expanding its neural connections at the blazing pace of hundreds of thousands per second! It cannot “Not Learn” when exposed to novel stimulation. Repeated pairing of musical notes with their image, must be uploaded just like language! Adding these associations, doubles their library of identifiable sounds.",
+  },
+  {
+    id: 3,
+    src: "/images/service_3.jpeg",
+    details: "Create A Musical Prodigy",
+    details2: "Pitch recognition is acquired at the same time as language. History shows that musical prodigies are introduced to music early. Start your child’s musical career as soon as they can focus their eyes.",
+  },
+  {
+    id: 4,
+    src: "/images/service_4.gif",
+    details: "It Is Easy & Automatic",
+    details2: "We have created a library of amazingly entertaining videos that will entertain any child. They are learning through subconscious repetition. Simply tap play or refine their session to even adjust for individual notes and even mood.",
+  },
+
+];
+
 export default function ServiceDetailsPage() {
   pageTitle('Service Details');
   const params = useParams();
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  let stringid  = useParams().serviceDetailsId;
+  let id = stringid-1;
+  console.log("stringid",stringid);
+  console.log("id",id);
+
   return (
     <>
       <PageHeading 
@@ -25,13 +60,29 @@ export default function ServiceDetailsPage() {
         pageLinkText={params.serviceDetailsId}
       />
       <Spacing lg='145' md='80'/>
+
+{/* service detail */}
+      <Div className="serviceDetailsContent">
+          <Div className="serviceDetailsTop">
+            <h1>{services[id].details}</h1>
+            <img
+              src={services[id].src}
+              alt={services[id].details}
+              className="img-fluid"
+            />
+          </Div>
+            <p>{services[id].details2}</p>
+          </Div>
+
+
       <Div className="container service-detail">
-        <SectionHeading 
+        {/* <SectionHeading 
           title='Design working process' 
           subtitle={params.serviceDetailsId} 
-          variant='cs-style1 text-center'/>
+          variant='cs-style1 text-center'/> */}
         <Spacing lg='90' md='45'/>
         <Div className="row">
+
           <Div className="col-lg-4">
             <IconBox
               icon='/images/icons/service_icon_1.svg'

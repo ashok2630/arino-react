@@ -287,3 +287,29 @@ ol.breadcrumb.text-uppercase :nth-child(1)
 .container.service-detail h3 {
   text-transform: uppercase;
 }
+.serviceDetailsTop {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+.serviceDetailsTop img {
+  width: 35%;
+  height: 420px;
+}
+.serviceDetailsContent {
+  padding: 60px 80px;
+  color: white;
+  background: black;
+}
+.serviceDetailsContent p {
+  font-size: 20px;
+  text-align: center;
+  -webkit-text-stroke: 0.3px green;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.serviceDetailsTop h1
+{
+  -webkit-text-stroke: 0.4px green;
+}
