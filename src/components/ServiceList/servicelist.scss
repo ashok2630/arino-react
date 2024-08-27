@@ -293,13 +293,14 @@ ol.breadcrumb.text-uppercase :nth-child(1)
   align-items: flex-start;
 }
 .serviceDetailsTop img {
-  width: 30%;
+  width: auto;
   height: 420px;
 }
 .serviceDetailsContent {
   padding: 60px 80px;
   color: white;
   background: black;
+  margin-bottom: 50px;
 }
 .serviceDetailsContent p {
   font-size: 20px;

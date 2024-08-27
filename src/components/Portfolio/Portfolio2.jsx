@@ -19,8 +19,8 @@ export default function Portfolio2({title, subtitle, btnText, btnLink, imageUrl,
           <Div className="col-xl-5 col-lg-6 offset-xl-1">
             <Spacing lg='0' md='35'/>
             <Div className="cs-section_heading cs-style1">
-              <h3 className="cs-section_subtitle">{subtitle}</h3>
-              <h2 className="cs-section_title">{title}</h2>
+              <h3 className="cs-section_subtitle ">{subtitle}</h3>
+              <h2 className="cs-section_title ">{title}</h2>
               <Spacing lg='45' md='20'/>
               <span 
                 onMouseEnter={()=>setHovered(true)} 

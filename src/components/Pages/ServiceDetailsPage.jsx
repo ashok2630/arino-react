@@ -47,10 +47,8 @@ export default function ServiceDetailsPage() {
     window.scrollTo(0, 0)
   }, [])
 
-  let stringid  = useParams().serviceDetailsId;
-  let id = stringid-1;
-  console.log("stringid",stringid);
-  console.log("id",id);
+  const stringid  = useParams().serviceDetailsId;
+  const id = stringid-1;
 
   return (
     <>

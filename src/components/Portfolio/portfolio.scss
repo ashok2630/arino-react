@@ -377,3 +377,91 @@
     border-radius: 0;
   }
 }
+
+
+.portfolio-detail{
+  margin-top: 50px;
+}
+.graffiti {
+  background: #181818;
+  margin-top: 50px;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  padding: 60px 80px;
+}
+.graffiti .cs-height_90.cs-height_lg_40 {
+  height: 0;
+}
+.graffiti h3.cs-accent_color.cs-font_22.cs-font_18_sm.cs-m0 {
+  color: #ff4a17;
+  font-size: 24px;
+}
+.graffiti h3 
+{
+  color: #a5a3a5;
+}
+
+.cs-portfolio.cs-style1 .cs-portfolio_info
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+  bottom: -100px;
+  left: -60px;
+  background-color: #ff4a17;
+  color: white;
+}
+
+.cs-portfolio.cs-style1:hover .cs-portfolio_info
+{
+  bottom: -60px;
+  left: -40px;
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s;
+}
+.home-portfolio .slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.cs-portfolio.cs-style1 .cs-portfolio_bg {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-portfolio {
+  padding: 70px 0;
+}
+
+.cs-portfolio_1_heading
+{
+  margin-bottom: 50px;
+}
+
+.portfolio-detail2 {
+  display: flex;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.portfolio-detail2 .serviceDetailsTop
+{
+  flex-shrink: 0;
+}
+.serviceDetailsRight {
+  text-align: right;
+}
+.serviceDetailsRight h1 
+{
+  padding-right: 50px;
+}
+.graffiti .cs-height_65
+{
+  height: 0;
+}

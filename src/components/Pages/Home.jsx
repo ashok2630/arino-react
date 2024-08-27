@@ -48,28 +48,22 @@ const funfaceData = [
 ];
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Learning Is Actually Automatic',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_1.jpeg',
+    href: '/portfolio/1',
+    src: '/images/portfolio_1.gif',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Theta Brainwaves',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_2.jpeg',
+    href: '/portfolio/2',
+    src: '/images/portfolio_2.gif',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'A Perfect Presentation!',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_0.jpg',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_3.jpeg',
+    href: '/portfolio/3',
+    src: '/images/portfolio_3.gif',
   },
 ];
 
@@ -181,7 +175,9 @@ export default function Home() {
           />
           <Spacing lg="90" md="45" />
         </Div>
+        <Div className="home-portfolio">
         <PortfolioSlider data={portfolioData} />
+        </Div>
       </Div>
       {/* End Portfolio Section */}
 

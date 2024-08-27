@@ -20,7 +20,7 @@ export default function Portfolio({ href, src, title, subtitle, variant }) {
           <h2 className="cs-portfolio_title">{title}</h2>
           <Div className="cs-portfolio_subtitle">{subtitle}</Div>
         </Div>
-      </>
+      </> 
     </Link>
   );
 }

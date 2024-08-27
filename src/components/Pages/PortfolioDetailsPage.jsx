@@ -8,12 +8,39 @@ import Div from '../Div'
 import SectionHeading from '../SectionHeading'
 import Spacing from '../Spacing'
 
+
+const portfolio = [
+  {
+    src: "/images/portfolio_1.gif",
+    details: "Learning Is Actually Automatic",
+    details2: "A young child cannot 'Not Learn' if the information is presented correctly. Learning is an automatic and mechanical process for children. The developing brain is specifically designed to learn and absorb everything initially. Repetition is all that is required. We exploit this opportunity by uploading musical pitch through pleasant and entertaining repetition. We flash the image of 36 basic notes and chords, simultaneously to its being heard in 288 classical and original compositions.",
+  },
+  {
+    src: "/images/portfolio_2.gif",
+    details: "Theta Brainwaves",
+    details2:
+      "A child's brain activity starts slow and gradually speeds up. This happens in frequencies like Theta, which is 3-6 cycles per second. Theta is the frequency of learning for children because, at that level, all that is required for them to learn is that their brains are firing in Theta. That means attention is not required.",
+  },
+  {
+    src: "/images/portfolio_3.gif",
+    details: "A Perfect Presentation!",
+    details2: "The science of teaching musical pitch to the youngest children is new and requires a versatile way to present the compositions. Our player is both simple and sophisticated. Start with a few simple rules of classical and original compositions. Watch as they happily amuse themselves. The library is deep, so the number of hours of musical images and compositions are vast. You can choose what you want, or you can keep them happy any time of the day and in any mood.",
+  },
+
+];
+
 export default function PortfolioDetailsPage() {
   const params = useParams()
   pageTitle('Portfolio Details');
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  const stringid  = useParams().portfolioDetailsId;
+  const id = stringid-1;
+
+  const iseven = id % 2 ==0;
+
   return (
     <>
       <PageHeading 
@@ -22,8 +49,44 @@ export default function PortfolioDetailsPage() {
         pageLinkText={params.portfolioDetailsId}
       />
       <Spacing lg='150' md='80'/>
-      <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+
+      {/* portfolio detail */}
+      {iseven ? (     //if id value will odd so this section will show
+         <Div className="serviceDetailsContent portfolio-detail">
+          <Div className="serviceDetailsTop">
+            <h1>{portfolio[id].details}</h1>
+            <img
+              src={portfolio[id].src}
+              alt={portfolio[id].details}
+              className="img-fluid"
+            />
+          </Div>
+            <p>{portfolio[id].details2}</p>
+          </Div>
+
+        ) :(    //else this section will show if id value will even 
+      <Div className="serviceDetailsContent portfolio-detail2">
+          <Div className="serviceDetailsTop">
+            <img
+              src={portfolio[id].src}
+              alt={portfolio[id].details}
+              className="img-fluid"
+            />
+          </Div>
+          <Div className="serviceDetailsRight">
+            <h1>{portfolio[id].details}</h1>
+            <p>{portfolio[id].details2}</p>
+            </Div>
+          </Div>
+
+        )}
+
+        {/* end of portfolio */}
+
+
+
+      <Div className="graffiti">
+        {/* <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" /> */}
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">
@@ -71,14 +134,14 @@ export default function PortfolioDetailsPage() {
           </Div>
         </Div>
         <Spacing lg='65' md='10'/>
-          <Div className="cs-page_navigation cs-center">
+          {/* <Div className="cs-page_navigation cs-center">
             <Div>
               <Button btnLink='/portfolio/portfolio-details' btnText='Prev Project' variant='cs-type1'/>
             </Div>
             <Div>
               <Button btnLink='/portfolio/portfolio-details' btnText='Next Project'/>
             </Div>
-          </Div>
+          </Div> */}
       </Div>
       <Spacing lg='145' md='80'/>
       <Cta 

@@ -12,71 +12,22 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_4.jpeg',
+    href: '/portfolio/1',
+    src: '/images/portfolio_1.gif',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_5.jpeg',
+    href: '/portfolio/2',
+    src: '/images/portfolio_2.gif',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_6.jpeg',
-    category: 'web_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_7.jpeg',
-    category: 'mobile_apps',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_8.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_9.jpeg',
-    category: 'web_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_10.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_4.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_5.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_6.jpeg',
+    href: '/portfolio/3',
+    src: '/images/portfolio_3.gif',
     category: 'web_design',
   },
 ];
@@ -119,7 +70,7 @@ export default function PortfolioPage() {
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
           <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
-          <Div className="cs-filter_menu cs-style1">
+          {/* <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
                 <span onClick={() => setActive('all')}>All</span>
@@ -135,7 +86,7 @@ export default function PortfolioPage() {
                 </li>
               ))}
             </ul>
-          </Div>
+          </Div> */}
         </Div>
         <Spacing lg="90" md="45" />
         <Div className="row">
