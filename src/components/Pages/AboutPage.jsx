@@ -150,6 +150,7 @@ export default function AboutPage() {
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
+      <Div className="team-sec team-about">
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -158,6 +159,7 @@ export default function AboutPage() {
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
+      </Div>
       </Div>
       {/* End Team Section */}
 
