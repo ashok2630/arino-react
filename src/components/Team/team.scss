@@ -76,3 +76,36 @@
   font-size: 20px;
 }
 }
+
+
+.team-sec {
+  background: #181818;
+  padding: 50px 0;
+}
+
+.team-sec h3 
+{
+  color: #a5a3a5;
+}
+
+.team-sec h2 
+{
+  color: white;
+}
+
+.team-sec .cs-height_85 {
+  height: 40px;
+}
+.team-sec .slick-track {
+  display: flex;
+  gap: 20px;
+}
+.cs-team.cs-style1 .cs-member_info,
+
+.cs-team.cs-style1 .cs-member_info a 
+{
+  color: white;
+}
+.cs-team.cs-style1 .cs-member_social a path {
+  color: wheat;
+}

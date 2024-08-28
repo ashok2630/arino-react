@@ -222,6 +222,7 @@ export default function Home() {
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
+      <Div className="team-sec">
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -230,6 +231,7 @@ export default function Home() {
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
+      </Div>
       </Div>
       <Spacing lg="150" md="80" />
       {/* End Team Section */}
