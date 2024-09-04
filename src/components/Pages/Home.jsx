@@ -242,6 +242,7 @@ export default function Home() {
 
       {/* Start Blog Section */}
       <Spacing lg="150" md="80" />
+      <Div className="blog-sec">
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -263,6 +264,7 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
+      </Div>
       </Div>
       {/* End Blog Section */}
 

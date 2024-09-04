@@ -112,3 +112,30 @@
 .team-about{
   margin-bottom: 50px;
 }
+.team-sec .slick-prev, .team-sec .slick-next {
+  color: white;
+  position: absolute;
+  top: -35%;
+  right: 0;
+  padding: 2px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+
+.team-sec .slick-prev, .team-sec .slick-next {
+  color: white;
+  position: absolute;
+  top: -35%;
+  right: 0;
+  padding: 5px 16px;
+  border: 2px solid white;
+  border-radius: 4px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-sec .slick-prev {
+  right: 62px;
+}

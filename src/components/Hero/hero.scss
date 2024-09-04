@@ -1220,3 +1220,38 @@
 .cs-hero.cs-style1.cs-bg.cs-fixed_bg.cs-shape_wrap_1 a {
   color: white;
 }
+
+.blog-sec {
+  background: #181818;
+  padding: 90px;
+  color: white;
+}
+
+.blog-sec a
+{
+  color: white;
+}
+
+.blog-sec h3 
+{
+  color: #a5a3a5;
+}
+
+.blog-sec .cs-post_thumb
+{
+  margin: 5px;
+}
+.blog-sec .cs-post.cs-style1 .cs-posted_by
+{
+  font-size: 10px;
+  color: #a5a3a5;
+}
+.blog-sec .cs-post.cs-style1 .cs-post_title {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.blog-sec .cs-post.cs-style1 .cs-post_thumb img
+{
+  border-radius: 5px;
+}
