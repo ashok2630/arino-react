@@ -58,7 +58,7 @@ export default function ServicesPage() {
                 </Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="Create A Musical Prodigy"
+                    title="Give Them The Gift Of Music"
                     link='/service/3'
                     src='/images/service_3.jpeg'
                     alt='Service'

@@ -139,7 +139,7 @@ export default function Home() {
                 </Div>
                 <Div className="col-lg-3 col-sm-6">
                   <Card
-                    title="Create A Musical Prodigy"
+                    title="Give Them The Gift Of Music"
                     link='/service/3'
                     src="/images/service_3.jpeg"
                     alt="Service"
@@ -167,9 +167,9 @@ export default function Home() {
       {/* Start Portfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
-        <Div className="container">
+        <Div className="container port-heading">
           <SectionHeading
-            title="Portfolio to explore"
+            title="The Easiest And Most Advanced Child Learning System On Earth!"
             subtitle="Latest Projects"
             variant="cs-style1 text-center"
           />

@@ -70,12 +70,12 @@ export default function TestimonialSlider() {
   );
   return (
     <>
-      <Div className="cs-gradient_bg_1 cs-shape_wrap_3 cs-parallax">
+      <Div className="cs-gradient_bg_1 cs-shape_wrap_3 cs-parallax  testimonial-sec">
         <Spacing lg="130" md="80" />
         <Div className="cs-shape_3 cs-to_up">
           <img src="/images/shape_1.svg" alt="Shape" />
         </Div>
-        <Div className="container">
+        <Div className="container testimonial-main">
           <Div className="cs-testimonial_slider">
             <Div className="cs-testimonial_slider_left">
               <Slider

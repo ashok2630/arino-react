@@ -198,3 +198,76 @@
     margin-top: 30px;
   }
 }
+
+
+.testimonial-sec .cs-shape_3.cs-to_up {
+  display: none;
+}
+
+.testimonial-sec
+{
+  background: #0d0d0d;
+  margin-bottom: 60px;
+}
+.container.testimonial-main {
+  color: white;
+}
+.cs-testimonial_slider_left {
+  width: 35%;
+}
+.cs-testimonial_slider_right {
+  width: 65%;
+  padding-left: 40px;
+}
+.cs-testimonial_slider
+{
+  display: flex;
+}
+.testimonial-main .cs-rating_bg {
+  height: 25px;
+  background-repeat: no-repeat;
+}
+
+.testimonial-main .slick-prev,
+.testimonial-main .slick-next
+{
+  color: white;
+    position: absolute;
+   bottom: -40px;
+    right: 25px;
+    padding: 5px 16px;
+    border: 2px solid white;
+    border-radius: 4px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.testimonial-main .slick-prev {
+  right: 87px;
+}
+.testimonial-main .cs-testimonial_slider_left .slick-slide.slick-active.slick-center.slick-current {
+  transform: scale(1.3);
+  position: relative;
+  z-index: 99;
+}
+.testimonial-main .cs-testimonial_slider_left .slick-initialized .slick-slide {
+  transform: scale(0.7);
+  padding: 50px 0;
+}
+.testimonial-main .cs-testimonial_slider_left .slick-slide img
+{
+  width:100%;
+  border-radius: 10px;
+}
+.cs-testimonial.cs-style1 .cs-testimonial_text
+{
+  font-size: 20px;
+  line-height: 30px;
+}
+.cs-testimonial.cs-style1 .cs-testimonial_avatar_name
+{
+  font-size: 20px;
+  margin-top: 60px;
+}
