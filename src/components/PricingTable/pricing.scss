@@ -98,7 +98,7 @@ $font-family_1: 'Montserrat', sans-serif;
 	background: #EFEFEF;
 	border-radius: 9.0825px;
 	padding: 30px 15px;
-	min-height: 680px;
+	min-height: 642px;
 	position: relative;
 }
 .box-fit {
@@ -327,6 +327,25 @@ button.playVideo2 {
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
 }
+a.Dates.subscribe:hover {
+  border-color: #4FDFAB;
+  color: #4FDFAB;
+}
+
+a.Dates.subscribe {
+  border: 1px solid #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+}
+.buttons a {
+  color: #000;
+}
+
 @keyframes pulseInOut{
 0%{opacity:1;transform:scale(.3)}
 100%{opacity:0;transform:scale(1.3)}

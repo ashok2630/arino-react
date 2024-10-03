@@ -97,14 +97,11 @@ export default function PricingTableList() {
                 <img src="images/music1.png" alt="" className="img-fluid" />
               </div>
               <div className="box-heading">
-                <h3>Free</h3>
-                <h5>Free</h5>
+                <h3>Free Plan</h3>
+                <h5>$0</h5>
               </div>
               <div className="buttons">
-                <button className="Dates">1 Month</button>
-              </div>
-              <div className="subscribe">
-                <button className="subscribe">Subscribe Now</button>
+                <a href='' class="Dates subscribe" style={{background:"#DBDBDB", fontSize: "14px"}}>1 Month</a>
               </div>
               <ul className="offers">
                 <li><img src="images/check.png" alt="" className="check" /> <span>72 Classical
@@ -122,14 +119,13 @@ export default function PricingTableList() {
               </div>
               <div className="box-heading">
                 <h3>Basic</h3>
-                <h5>9.99$/Month</h5>
+                <h5>$9.95/$99</h5>
               </div>
-              <div className="buttons">
-                <button className="one-month">1 Month</button>
-                <button className="one-year">1 Year</button>
+              <div class="buttons">
+                <a class="Dates subscribe" style={{background:"#DBDBDB", fontSize: "14px"}} href="">Basic Monthly</a>
               </div>
-              <div className="subscribe">
-                <button className="subscribe">Subscribe Now</button>
+              <div class="buttons">
+                <a class="Dates subscribe" style={{background: "#C5E0B4", fontSize: "14px"}} href="">Basic Yearly</a>
               </div>
               <ul className="offers">
                 <li><img src="images/check.png" alt="" className="check" /> <span>144 Classical
@@ -151,14 +147,13 @@ export default function PricingTableList() {
               </div>
               <div className="box-heading">
                 <h3>Premium</h3>
-                <h5>14.5$/Month</h5>
+                <h5>$14.95/$149</h5>
               </div>
-              <div className="buttons">
-                <button className="one-month">1 Month</button>
-                <button className="one-year">1 Year</button>
+              <div class="buttons">
+                <a class="Dates subscribe" style={{background:"#DBDBDB", fontSize: "14px"}} href="">Premium Monthly</a>
               </div>
-              <div className="subscribe">
-                <button className="subscribe">Subscribe Now</button>
+              <div class="buttons">
+                <a class="Dates subscribe" style={{background: "#C5E0B4", fontSize: "14px"}} href="">Premium Yearly</a>
               </div>
               <ul className="offers">
                 <li><img src="images/check.png" alt="" className="check" />
@@ -209,10 +204,6 @@ export default function PricingTableList() {
               <div className="box-heading">
                 <h3>Mobile Premium</h3>
                 <h5></h5>
-              </div>
-              <div className="buttons">
-                <button className="one-month">1 Month</button>
-                <button className="one-year">1 Year</button>
               </div>
               <div className="subscribe">
                 <button className="subscribe">Subscribe Now</button>
