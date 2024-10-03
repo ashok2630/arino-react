@@ -77,3 +77,261 @@
     padding: 0 30px;
   }
 }
+
+$color_1: rgba(0, 0, 0, 0.4);
+$color_2: #fff;
+$color_3: #000;
+$color_4: #4FDFAB;
+$font-family_1: 'Montserrat', sans-serif;
+
+.box-container {
+	display: flex;
+	justify-content: space-between;
+}
+.buttons.select_songs {
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	left: 0;
+}
+.box {
+	background: #EFEFEF;
+	border-radius: 9.0825px;
+	padding: 30px 15px;
+	min-height: 680px;
+	position: relative;
+}
+.box-fit {
+	width: 25%;
+	padding: 0 10px;
+}
+.box-image {
+	text-align: center;
+	img {
+		height: 80px;
+		width: auto;
+	}
+}
+.box-heading {
+	h3 {
+		font-size: 26px;
+		font-weight: 700;
+		margin-bottom: 2px;
+		margin-top: 10px;
+	}
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0;
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	button {
+		background: #E3E3E3;
+		border-radius: 6.11803px;
+		border: none;
+		height: 40px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 800;
+		margin: 15px 0;
+		cursor: pointer;
+		color: $color_1;
+		&:hover {
+			background: #4FDFAB;
+			color: $color_3;
+		}
+	}
+	a {
+		font-weight: 600;
+		padding: 0 40px;
+		margin-top: 20px;
+		cursor: pointer;
+		&:hover {
+			color: $color_4;
+		}
+	}
+}
+button {
+	font-family: $font-family_1;
+}
+.subscribe {
+	padding: 10px 0;
+}
+button.subscribe {
+	background: #000000;
+	border-radius: 6.11803px;
+	color: $color_2;
+	height: 50px;
+	width: 100%;
+	border: 1px solid;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	cursor: pointer;
+	&:hover {
+		background: #fff;
+		color: $color_3;
+	}
+}
+ul.offers {
+    padding: 0;
+	li {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		min-height: 35px;
+		font-weight: 700;
+		&:last-child {
+			margin: 0;
+		}
+		img {
+			width: 20px;
+			margin-right: 10px;
+		}
+	}
+}
+button.one-year {
+	margin-left: 5px;
+}
+button.one-month {
+	margin-right: 5px;
+}
+
+.box-fit {
+	width: 25%;
+	padding: 0 10px;
+	position: relative;
+	width: 25%;
+	padding: 0 10px;
+	position: relative;
+	height: 100%;
+	&:last-child {
+		padding: 0 0 0 10px;
+	}
+}
+ul.wavs {
+  padding: 0;
+	li {
+		&:nth-child(2) {
+			margin: 20px 10px;
+		}
+		display: block;
+		margin: 20px 0;
+		img {
+			height: 50px;
+		}
+	}
+	display: flex;
+	justify-content: space-around;
+}
+img.mom-baby-final {
+  position: absolute;
+  bottom: -40px;
+  height: 370px;
+  left: 20%;
+}
+.overlay-mobile {
+  position: absolute;
+  background: #000000b3;
+  width: auto;
+  height: 100%;
+  top: 0;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 8px;
+}
+video#player_rand {
+  width: 100%;
+  height: 330px;
+  object-fit: contain;
+}
+.buttons a:hover {
+  color: #4FDFAB;
+}
+.buttons a {
+  font-weight: 700;
+  padding: 0 40px;
+  margin-top: 0px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.buttons.select_songs {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  left: 0;
+}
+.buttons.select_songs2 {
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
+  left: 0;
+}
+button.playVideo2 {
+  position: absolute;
+  left: 35%;
+  top: auto;
+  z-index: 99;
+}
+.sigma_video-popup {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #005f89;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.sigma_video-popup::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  animation-name: pulseInOut;
+  opacity: 0;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.sigma_video-popup::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  animation-name: pulseInOutSM;
+  opacity: 0;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulseInOut{
+0%{opacity:1;transform:scale(.3)}
+100%{opacity:0;transform:scale(1.3)}
+}
+@keyframes pulseInOutSM{
+0%{opacity:1;transform:scale(.3)}
+100%{opacity:0;transform:scale(1.7)}
+}
