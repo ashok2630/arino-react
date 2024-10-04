@@ -102,7 +102,7 @@ export default function ServicesPage() {
         </Div>
       </Div>
       <Spacing lg='150' md='80'/>
-      <Div className="container-fluid px-5">
+      <Div className="container-fluid px-5 pricing-sec">
         <SectionHeading
           title='Providing best <br/>pricing for client' 
           subtitle='Pricing & Packaging'
